@@ -10,227 +10,180 @@ object DummyData {
     val mobileMentors = listOf(
         Mentor(
             id = 1,
-            name = "Reza Kurniawan",
-            nickname = "Reza",
-            role = "Technical Mobile",
-            photo = R.drawable.reza
+            name = "Darma Fauzan W.",
+            nickname = "Darma",
+            role = "Ketua Umum",
+            photo = R.drawable.darma
         ),
         Mentor(
             id = 2,
-            name = "Reynaldi",
-            nickname = "Rey",
-            role = "Technical Mobile",
-            photo = R.drawable.reynaldi
+            name = "Akbar Nugraha D.",
+            nickname = "Barto",
+            role = "Wakil Ketua Umum",
+            photo = R.drawable.akbar
         ),
         Mentor(
             id = 3,
-            name = "Raihan Zaky",
-            nickname = "Han",
-            role = "Technical Mobile",
-            photo = R.drawable.raihan
+            name = "Gina Khairunnisa",
+            nickname = "Gina",
+            role = "Sekretaris Umum",
+            photo = R.drawable.gina
         ),
         Mentor(
             id = 4,
-            name = "Nabila Syafrina Bukka",
-            nickname = "Nab",
-            role = "Technical Mobile",
-            photo = R.drawable.nabila
+            name = "Alustina Suci M.",
+            nickname = "Alus",
+            role = "Wakil Sekretaris Umum",
+            photo = R.drawable.alus
         ),
         Mentor(
             id = 5,
-            name = "Rahmad Noor Ikhsan",
-            nickname = "Mad",
-            role = "Technical Mobile",
-            photo = R.drawable.rahmad
+            name = "Tedi Alamsyah",
+            nickname = "Tedi",
+            role = "Bendahara Umum",
+            photo = R.drawable.tedi
+        ),
+        Mentor(
+            id = 6,
+            name = "Najma Alfisyahrina",
+            nickname = "Najma",
+            role = "Wakil Bendahara Umum",
+            photo = R.drawable.najma
         )
     )
 
     val mobileMentees = listOf(
         Mentee(
             id = 1,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
+            name = "Dwi Miftahussalamah",
+            photo = R.drawable.dwi,
+            batch = "PSDM",
+            role = "Koordinator Bidang",
         ),
         Mentee(
             id = 2,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
+            name = "Reza Aditya S.",
+            photo = R.drawable.reza,
+            batch = "Kominfo",
+            role = "Koordinator Bidang",
         ),
         Mentee(
             id = 3,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
+            name = "Bayu Ragil P.",
+            photo = R.drawable.bayu,
+            batch = "MinBat",
+            role = "Koordinator Bidang",
         ),
         Mentee(
             id = 4,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 5,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 6,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 7,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 8,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 9,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 10,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
-        ),
-        Mentee(
-            id = 11,
-            name = "Nama Mentee",
-            photo = R.drawable.no_profile,
-            batch = "Batch 6",
-            role = "Mentee Mobile",
+            name = "Ilhan Yusuf A.",
+            photo = R.drawable.ilham,
+            batch = "SosPol",
+            role = "Koordinator Bidang",
         )
     )
 
     val mobileCourses = listOf(
         Course(
             id = 1,
-            name = "Kotlin Introduction",
-            level = "Beginner",
-            photo = R.drawable.kotlin_introduction
+            name = "Kaderisasi",
+            level = "PSDM",
+            photo = R.drawable.kaderisasi
         ),
         Course(
             id = 2,
-            name = "Kotlin Fundamental",
-            level = "Fundamental",
-            photo = R.drawable.kotlin_fundamental
+            name = "Pengembangan & Pengawasan",
+            level = "PSDM",
+            photo = R.drawable.pp
         ),
         Course(
             id = 3,
-            name = "Kotlin Coroutines",
-            level = "Intermediate",
-            photo = R.drawable.kotlin_coroutines
+            name = "Kaderisasi",
+            level = "PSDM",
+            photo = R.drawable.kaderisasi
         ),
         Course(
             id = 4,
-            name = "Jetpack Compose Introduction",
-            level = "Beginner",
-            photo = R.drawable.compose_introduction
+            name = "Pengembangan & Pengawasan",
+            level = "PSDM",
+            photo = R.drawable.pp
         ),
         Course(
             id = 5,
-            name = "Jetpack Compose Fundamental",
-            level = "Fundamental",
-            photo = R.drawable.compose_fundamental
+            name = "Pengembangan & Pengawasan",
+            level = "PSDM",
+            photo = R.drawable.pp
         ),
         Course(
             id = 6,
-            name = "Jetpack Compose Navigation",
-            level = "Intermediate",
-            photo = R.drawable.compose_navigation
+            name = "Kaderisasi",
+            level = "PSDM",
+            photo = R.drawable.kaderisasi
         ),
         Course(
             id = 7,
-            name = "Jetpack Compose Retrofit",
-            level = "Intermediate",
-            photo = R.drawable.compose_retrofit
+            name = "Pengembangan & Pengawasan",
+            level = "PSDM",
+            photo = R.drawable.pp
         ),
         Course(
             id = 8,
-            name = "Jetpack Compose Injection",
-            level = "Expert",
-            photo = R.drawable.compose_injection
+            name = "Kaderisasi",
+            level = "PSDM",
+            photo = R.drawable.kaderisasi
         )
     )
 
     val infiniteGalleries = listOf(
         Gallery(
             id = 1,
-            name = "Digital Marketing",
-            photo = R.drawable.digital_marketing
+            name = "DORAA Kuliah",
+            photo = R.drawable.doraa
         ),
         Gallery(
             id = 2,
-            name = "Menjadi Designer",
-            photo = R.drawable.designer
+            name = "Seminar Literasi Intelektual Mahasiswa",
+            photo = R.drawable.slim
         ),
         Gallery(
             id = 3,
-            name = "Modern Android in 2024",
-            photo = R.drawable.modern_android
+            name = "PKKMB Fasilkom 2024",
+            photo = R.drawable.pkkmb
         ),
         Gallery(
             id = 4,
-            name = "Iftar Inners",
-            photo = R.drawable.iftar
+            name = "Inaugurasi 2024",
+            photo = R.drawable.inau
         ),
         Gallery(
             id = 5,
-            name = "Container Technology",
-            photo = R.drawable.container_technologi
+            name = "Studi Banding",
+            photo = R.drawable.stuban
         ),
         Gallery(
             id = 6,
-            name = "Filosofi Ilo",
-            photo = R.drawable.filosofi_ilo
+            name = "Pengambilan Merchandise",
+            photo = R.drawable.merch
         ),
         Gallery(
             id = 7,
-            name = "Tips Lulus MSIB",
-            photo = R.drawable.lulus_msib
+            name = "COMPFAIR X Dies Natalis Fasilkom",
+            photo = R.drawable.compfairxdiesnat
         ),
         Gallery(
             id = 8,
-            name = "Fresh Graduate jadi Manager",
-            photo = R.drawable.manager
+            name = "Hai Desa 6.0",
+            photo = R.drawable.haidesa
         ),
         Gallery(
             id = 9,
-            name = "Kenapa IBM Academy?",
-            photo = R.drawable.ibm_academy
+            name = "Beasiswa For Mahasiswa",
+            photo = R.drawable.bfm
         ),
         Gallery(
             id = 10,
-            name = "Unreal Engine",
-            photo = R.drawable.unreal_engine
-        ),
-        Gallery(
-            id = 11,
-            name = "Masih Stuck di Chat GPT?",
-            photo = R.drawable.stuck_chatgpt
+            name = "Kajian General X Forum Mahasiswa",
+            photo = R.drawable.kajiangeneral
         ),
     )
 }

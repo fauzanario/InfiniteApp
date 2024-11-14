@@ -44,7 +44,7 @@ fun InfiniteApp(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(text = "Infinite App") },
+                title = { Text(text = "Kabinet Kartalasatya") },
                 actions = {
                     IconButton(onClick = { shareItem(context) }) {
                         Icon(
